@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.3.3",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.29",
+        "lodash": "^4.17.19",
+        "postcss": "^8.3.6",
+        "process": "^0.11.10",
+        "tailwindcss": "3.0.0-alpha.1",
+        "vue-loader": "^16.8.1"
+    },
+    "dependencies": {
+        "@headlessui/vue": "^1.4.1",
+        "@heroicons/vue": "^1.0.4",
+        "@inertiajs/inertia": "^0.10.1",
+        "@inertiajs/inertia-vue3": "^0.5.2",
+        "@inertiajs/progress": "^0.2.6",
+        "@tailwindcss/forms": "0.4.0-alpha.1",
+        "@tailwindcss/typography": "0.5.0-alpha.2",
+        "markdown-it-anchor": "^8.4.1",
+        "markdown-it-deflist": "^2.1.0",
+        "markdown-it-emoji": "^2.0.0",
+        "markdown-it-mark": "^3.0.1",
+        "markdown-it-sub": "^1.0.0",
+        "markdown-it-toc-done-right": "^4.2.0",
+        "postcss-import": "^14.0.2",
+        "vue": "^3.2.20",
+        "vue3-markdown-it": "^1.0.9",
+        "vue3-perfect-scrollbar": "^1.5.5"
+    }
+}
